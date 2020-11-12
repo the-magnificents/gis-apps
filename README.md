@@ -8,7 +8,7 @@ A coding session about an intro to web architecture of web apps for geographic d
 1. Explain the basics software architecture of web-based GIS applications and how do they compare with more generic web-based applications.
 2. Describe how the Server-Client model is used in web-based GIS applications and common toolchains.
 3. Implement a simple client to consume Geo-Web services (MWS, WMTS, and WFS) using Jupyter notebooks.
-4. Do some geeky things while playing Python.
+4. Do some geeky things with Python and geodata.
 
 
 ## Toolchain
@@ -103,13 +103,13 @@ marker = Marker(location=center, draggable=True)
 m.add_layer(marker)
 display(m)
 ```
-You should see a map appearing before your eyes if it doesn't look for help in [StackOverflow](https://stackoverflow.com/questions)
+You should see a map appearing before your eyes, if it doesn't, look for help in [StackOverflow](https://stackoverflow.com/questions)
 
 
 ### FAQ
 
-* [I am lost. How do I find my lat and lon?](https://www.latlong.net/)
-* [What's that thing about zoom levels?](https://leafletjs.com/examples/zoom-levels/)
-* [What cool stuff can I do in my GIS client using ipyleaflet](https://blog.jupyter.org/interactive-gis-in-jupyter-with-ipyleaflet-52f9657fa7a)
-* [I am hardcore, where do I find the official documentation of ipyleaflet?](https://ipyleaflet.readthedocs.io/en/latest/)
+* [I'm lost. How do I find my lat and lon?](https://www.latlong.net/)
+* [What's that thing called 'zoom level'?](https://leafletjs.com/examples/zoom-levels/)
+* [What other cool stuff can I add to my GIS client?](https://blog.jupyter.org/interactive-gis-in-jupyter-with-ipyleaflet-52f9657fa7a)
+* [I am hardcore. Where do I find the official documentation of ipyleaflet?](https://ipyleaflet.readthedocs.io/en/latest/)
 
