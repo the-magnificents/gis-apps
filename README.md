@@ -44,7 +44,7 @@ $ wget https://sourceforge.net/projects/geoserver/files/GeoServer/2.18.0/geoserv
 
 ```shell
 $ sudo apt unzip
-$ unzip geoserver-2.18.0-bin.zip -d /usr/share/geoserver
+$ sudo unzip geoserver-2.18.0-bin.zip -d /usr/share/geoserver
 ```
 
 3. Add the location of GeoServer as an environment variable.
