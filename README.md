@@ -1,6 +1,6 @@
-# gis-apps
+# Geo Web Apps
 
-A coding session about an intro to web architecture of GIS apps: this session demonstrates the steps to deploy geo-web services and how to connect clients to the services. 
+A coding session about an intro to web architecture of web apps for geographic data: this session demonstrates the steps to deploy geo-web services and how to connect clients to the services. 
 
 
 ## Objectives
