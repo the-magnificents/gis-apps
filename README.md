@@ -97,7 +97,7 @@ from ipyleaflet import Map, Marker
 
 center = (51.999285, 4.373791)
 
-m = Map(center=center, zoom=15)
+m = Map(center=center, zoom=14)
 
 marker = Marker(location=center, draggable=True)
 m.add_layer(marker)
