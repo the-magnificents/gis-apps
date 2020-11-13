@@ -21,7 +21,7 @@ Geo Web-map servers implement standads for exposing services. Each service provi
 
 The figure below shows a general sofware architecture of a geo-web app using GeoServer on the server side and a Jupyter Notebooks on the client side. These two component interact via an API exposing WMS, WFS or WMTS.
 
-![geo-web app architecture](static/img/architecture.png )
+![geo-web app architecture](static/img/architecture-up.png )
 
 
 ## Toolchain
