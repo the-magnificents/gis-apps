@@ -11,6 +11,22 @@ A coding session about an intro to web architecture of web apps for geographic d
 4. Do some geeky things with Python and geodata.
 
 
+## Client-Server Model
+
+Like many web-apps, geo-web apps follow the client-server model. The *server* exposes data services and the client *connects* to such services and provides an GUI inteface for the users. 
+Geo Web-map servers implement standads for exposing services. Each service provides certain capabilities that the client can request. The most popular are the following:
+
+* Web Map Service (WMS): for publishing maps as images.
+* Web Feature Service (WFS): for publishing maps and attributes of geospatial data. It also provides capabilities to capture user's inputs to create or update data stored by the server.
+* Web Map Tile Service (WMTS): for publishing maps or data layers using tiles for more eficient data transfer.
+
+The figure below shows a general sofware architecture of a geo-web app using GeoServer on the server side and a Jupyter Notebooks on the client side. These two component interact via an API exposing WMS, WFS or WMTS.
+
+![geo-web app architecture](http://url/to/img.png)
+
+
+
+
 ## Toolchain
 
 ### Server Side
