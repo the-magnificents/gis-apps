@@ -10,7 +10,6 @@ A coding session about an intro to web architecture of web apps for geographic d
 3. Implement a simple client to consume Geo-Web services (MWS, WMTS, and WFS) using Jupyter notebooks.
 4. Do some geeky things with Python and geodata.
 
-
 ## Client-Server Model
 
 Like many web-apps, geo-web apps follow the client-server model. The *server* exposes data services and the client *connects* to such services and provides an GUI inteface for the users. 
@@ -22,9 +21,7 @@ Geo Web-map servers implement standads for exposing services. Each service provi
 
 The figure below shows a general sofware architecture of a geo-web app using GeoServer on the server side and a Jupyter Notebooks on the client side. These two component interact via an API exposing WMS, WFS or WMTS.
 
-![geo-web app architecture](http://url/to/img.png)
-
-
+![geo-web app architecture](static/img/architecture.png )
 
 
 ## Toolchain
