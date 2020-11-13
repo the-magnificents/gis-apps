@@ -2,6 +2,8 @@
 
 A coding session about an intro to web architecture of web apps for geographic data: this session demonstrates the steps to deploy geo-web services and how to connect clients to the services. 
 
+Code snippets are availble in the [session-notes.](notebooks/session-notes.ipynb)
+
 
 ## Objectives
 
