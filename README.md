@@ -100,7 +100,7 @@ We will use jupyter as a friendly environment to build a GIS web-client that wil
 1. On the *Anaconda prompt* install the `ipywidgets` and `ipyleaflet` packages to the *base* environment. 
 
 ```shell
-$ conda install -c conda-forge ipyleaflet ipyleaflet
+$ conda install -c conda-forge ipyleaflet ipywidgets
 ```
 
 `-c`:= channel
